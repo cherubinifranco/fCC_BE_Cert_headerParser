@@ -29,7 +29,7 @@ app.get('/api/whoami', (req, res)=>{
   let ip = req.ip;
   let lng = req.headers['accept-language'];
   let software = req.headers['user-agent'];
-  res.send({ipaddress: ip, languaje: lng, software: software})
+  res.send({ipaddress: ip, language: lng, software: software})
 })
 
 // listen for requests :)
